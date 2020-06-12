@@ -1,7 +1,7 @@
 import Vue from 'vue';
-import VueAutosizeInputDirective from 'vue-autosize-input-directive';
+import VAutosizeInput from 'v-autosize-input';
 
-Vue.use(VueAutosizeInputDirective);
+Vue.use(VAutosizeInput);
 
 import App from './App.vue';
 

@@ -3,7 +3,7 @@
     <img alt="Vue logo" src="./assets/logo.png" />
     <p>Type text to see the input box grow its width, even when IME is on.</p>
     <p>
-      <input type="text" class="demo" />
+      <input type="text" class="demo" v-autosize-input />
     </p>
     <p>Note that the minimum width of the above is 100px specified by CSS.</p>
   </div>

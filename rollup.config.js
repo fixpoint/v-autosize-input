@@ -21,7 +21,7 @@ export default [
       {
         file: pkg.unpkg,
         format: 'umd',
-        name: 'vue-autosize-input-directive',
+        name: 'v-autosize-input',
         extend: true,
         sourcemap: true,
         globals: {

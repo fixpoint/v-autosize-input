@@ -7,6 +7,8 @@
 Yet another Vue directive to change `<input>` width automatically by content length.
 It works well on IME by using [autosize-input](https://github.com/yuanqing/autosize-input) internally.
 
+[![Edit vue-autosize-input-directive demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/vue-autosize-input-directive-demo-fzcmq?fontsize=14&hidenavigation=1&theme=dark)
+
 ## Install
 
 ```

@@ -9,6 +9,9 @@ It works well on IME by using [autosize-input](https://github.com/yuanqing/autos
 
 [![Edit vue-autosize-input-directive demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/vue-autosize-input-directive-demo-fzcmq?fontsize=14&hidenavigation=1&theme=dark)
 
+The most of implementation has copied and translated to TypeScript from [vue-autosize](https://github.com/mage3k/vue-autosize).
+See [LICENSE.orig](./LICENSE.orig) for the original license.
+
 ## Install
 
 ```

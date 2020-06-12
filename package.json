@@ -1,0 +1,61 @@
+{
+  "name": "vue-autosize-input-directive",
+  "version": "0.0.0",
+  "description": "Vue directive to apply autosize-input",
+  "main": "./dist/index.common.js",
+  "module": "./dist/index.esm.js",
+  "unpkg": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "src",
+    "dist/**/*.js",
+    "dist/**/*.d.ts"
+  ],
+  "scripts": {
+    "prepare": "run-s lint build",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "build": "rollup -c"
+  },
+  "author": {
+    "name": "Fixpoint, Inc",
+    "email": "developer@fixpoint.co.jp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fixpoint/vue-autosize-input-directive"
+  },
+  "keywords": [
+    "vue",
+    "directive",
+    "autosize",
+    "input"
+  ],
+  "homepage": "https://github.com/fixpoint/vue-autosize-input-directive",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@types/node": "^12.12.47",
+    "@typescript-eslint/eslint-plugin": "^3.2.0",
+    "@typescript-eslint/parser": "^3.2.0",
+    "acorn": "^7.3.1",
+    "babel": "^6.23.0",
+    "eslint": "^7.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "npm-run-all": "^4.1.2",
+    "prettier": "^1.19.1",
+    "rollup": "^2.15.0",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "typescript": "^3.9.5",
+    "vue": "^2.6.11"
+  },
+  "peerDependencies": {
+    "vue": ">=2"
+  },
+  "dependencies": {
+    "autosize-input": "^1.0.2"
+  }
+}

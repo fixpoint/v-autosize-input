@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es5",
+    "moduleResolution": "node",
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable"
+    ],
+    "importHelpers": true,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationDir": "dist/types",
+    "rootDir": "src",
+    "outDir": "dist",
+    "sourceRoot": "src",
+    "strict": true,
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "types",
+    "src"
+  ]
+}
